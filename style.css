@@ -1,39 +1,32 @@
-body{
-    display: grid;
-    grid-template: 
+body {
+  display: grid;
+  grid-template:
     "header  " 40px
     "main  main " 40px
     " footer footer" 40px / 1fr 2fr 1fr;
-    ;
-  
 }
-
 
 .img {
-    width: auto;
+  width: auto;
 }
 
-
-
-
-header  {
+header {
   color: red;
-
   height: auto;
   background-color: bisque;
   text-align: center;
 }
 
 main {
-    color: blue;
-    background-color: blanchedalmond;
-    height: auto;
-    text-align: center;
+  color: blue;
+  background-color: blanchedalmond;
+  height: auto;
+  text-align: center;
 }
 
 footer {
-    background-color: antiquewhite;
-    color: blueviolet;
-    height: auto;
-    text-align: center;
+  background-color: antiquewhite;
+  color: blueviolet;
+  height: auto;
+  text-align: center;
 }
